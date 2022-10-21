@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuLogged">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20dip"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-92dp"
+        tools:layout_editor_absoluteY="-135dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="239dp"
+            android:layout_height="52dp"
+            android:rotationX="0"
+            android:text="Bienvenidos al Menu"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="132dp"
+            tools:text="Bienvenidos al Menu" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="233dp"
+            android:layout_height="62dp"
+            android:text="Porfavor escojer una opcion"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="175dp"
+            tools:text="Porfavor escojer una opcion" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#EF2020"
+            app:srcCompat="@android:drawable/ic_dialog_map"
+            tools:layout_editor_absoluteX="313dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#EF2020"
+            app:srcCompat="@android:drawable/ic_media_play"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#EF2020"
+            app:srcCompat="@android:drawable/ic_menu_month"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/sym_def_app_icon"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="557dp" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

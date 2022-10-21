@@ -23,13 +23,14 @@ public class MainActivity extends AppCompatActivity {
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
     }
     public void registrarse(View view) {
-        Intent intent = new Intent(this, formulario_registro.class);
-        startActivity(intent);
+        Intent intent1 = new Intent(this, formulario_registro.class);
+        startActivity(intent1);
     }
     public void login(View view) {
-        Toast toast=Toast.makeText(getApplicationContext(),"Usted no cuenta con un usuario",Toast.LENGTH_SHORT);
-        toast.show();
+        Intent intent2 = new Intent(this, MenuLogged.class);
+        startActivity(intent2);
     }
+
     public void onClick(View v) {
         if(v.getId() == R.id.btnLogin){
             Log.d("mensaje","ïngreso");
