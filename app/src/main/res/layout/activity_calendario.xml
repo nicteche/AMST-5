@@ -6,28 +6,32 @@
     android:layout_height="wrap_content"
     android:visibility="visible"
     tools:context=".calendario">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+                <CalendarView
+                    android:id="@+id/calendarView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="41dp"
+                    tools:layout_editor_absoluteY="206dp" />
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="206dp" />
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regresar"
+                    tools:layout_editor_absoluteX="161dp"
+                    tools:layout_editor_absoluteY="560dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Regresar"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="560dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="104dp"
-        tools:text="Calendario" />
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="180dp"
+                    tools:layout_editor_absoluteY="104dp"
+                    tools:text="Calendario" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

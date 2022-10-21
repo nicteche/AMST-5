@@ -32,9 +32,6 @@ public class MenuLogged extends AppCompatActivity {
 
     public void onClick(View v) {
         if(v.getId() == R.id.imageButton){
-            Log.d("mensaje","ïngreso");
-        }else
-        if(v.getId() == R.id.btnRegistro) {
         }
     }
 }
